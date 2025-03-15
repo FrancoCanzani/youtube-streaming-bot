@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 one_week_ago = (datetime.now() - timedelta(days=7)).strftime('%Y-%m-%dT%H:%M:%SZ')
 one_month_ago = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%dT%H:%M:%SZ')
 
-api_key = "AIzaSyBYpUV9qy0LnizDcjjrXbH6oVvLaeO7LHo"
+
 channel_id = "UCvCTWHCbBC0b9UIeLeNs8ug"
 
 def main():
